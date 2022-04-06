@@ -1,3 +1,217 @@
-.p {
-    color: black;
+body {
+    background-color: black;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
 }
+
+.center {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.watching {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+.white-roboto {
+
+    color: rgb(147, 147, 147);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+    -webkit-transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    -ms-transition: color 0.5s;
+    -o-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* Centralizando o conteúdo*/
+}
+
+.menu {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .user {
+    background-color: white;
+    height: 11em;
+    width: 11em;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+} */
+
+
+.card-image-container img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+
+.adduser {
+    background-color: white;
+    height: 75%;
+    width: 60%;
+    border-radius: 10px;
+
+}
+
+
+.user:hover {
+    box-shadow: 0 0 0 2px #565656;
+}
+
+.adduser:hover {
+    box-shadow: 0 0 0 2px #565656;
+}
+
+.card {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+.card:hover .white-roboto {
+    color: white;
+    -webkit-transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    -ms-transition: color 0.5s;
+    -o-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+.card:hover .card-image-container {
+    border: 2px solid rgb(119, 119, 252);
+    margin: -2px;
+}
+
+.card:hover .card-image-container img {
+    transform: scale(1.2);
+}
+
+.card-image-container {
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    display: block;
+    overflow: hidden;
+}
+
+
+.card-image-container img {
+    height: 160px;
+}
+
+.nozoom {
+    background-color: #1E1E20;
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nozoom svg {
+    width: 65px;
+    border-radius: 10px;
+    margin-bottom: -3px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    overflow: hidden;
+    -webkit-transition: color 0.6s;
+    -moz-transition: color 0.6s;
+    -ms-transition: color 0.6s;
+    -o-transition: color 0.6s;
+    transition: color 0.6s;
+}
+
+.nozoom svg{
+    color: #6F6F70;
+}
+
+
+.card:hover .nozoom svg{
+    color: white;
+}
+
+.card:hover .nozoom {
+    border: 2px solid rgb(119, 119, 252);
+    margin: -2px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+
+.perfis {
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+
+}
+
+.managebutton {
+    height: 2.8em;
+    width: 12em;
+    background-color: rgb(30, 30, 30);
+    border-radius: 0.5em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    border: solid 2px white;
+}
+
+.managebutton:hover {
+    height: 2.8em;
+    width: 12em;
+    background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    border: solid 2px white;
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -ms-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1;
+
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -ms-transition: background-color 1s;
+    -o-transition: background-color 1s;
+    transition: background-color 1s;
+}
+
+
+/* width: 100%;
+    margin: 0 auto;
+    
+    flex-wrap: wrap;
+    align-items: center; */
